@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px; /* Add some spacing between product cards */
+    gap: 20px; 
 }
 
 .card {
@@ -25,19 +25,15 @@
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
-    width: 300px; /* Set a fixed width for uniformity */
+    width: 300px; 
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
-    transform: translateY(-10px);
-}
-
 a {
     text-decoration: none;
-    color: inherit; /* Ensure text color is inherited */
+    color: inherit; 
 }
 
 .card_main img {
