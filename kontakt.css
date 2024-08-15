@@ -1,0 +1,147 @@
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Add some spacing between product cards */
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px; /* Set a fixed width for uniformity */
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Ensure text color is inherited */
+}
+
+.card_main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.desc {
+    margin: 10px 0;
+    text-align: start;
+}
+
+.desc p {
+    font-size: 13px;
+    color: #323232;
+}
+
+.desc .sale {
+    font-size: 13px;
+    color: #fff;
+    background-color: red;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 10px 0;
+}
+
+.price .origin {
+    font-size: 14px;
+    color: #777777;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.price .onsale {
+    color: #ff003c;
+    font-weight: bold;
+}
+
+.prices span {
+    font-size: 13px;
+    color: #323232;
+    font-weight: bold;
+    padding-left: 120px;
+}
+
+.icons i {
+    color: #777777;
+    font-size: 20px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.icons i:hover {
+    color: #ff003c;
+}
+
+button {
+    font-size: 13px;
+    color: white;
+    background-color: #ff003c;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #c4002b;
+}
+
+.card_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.card_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h4 {
+    font-size: 20px;
+    color: #323232;
+    padding: 20px 0 0 60px;
+}
+
+.installing {
+    font-size: 12px;
+    color: #17a539;
+    background-color: #edf8f0;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
